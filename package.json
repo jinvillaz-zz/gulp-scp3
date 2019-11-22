@@ -1,0 +1,28 @@
+{
+  "name": "gulp-scp3",
+  "version": "0.0.1",
+  "description": "This module is a gulp-task for copy files remotely like scp command on linux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp-scp3",
+    "node12",
+    "scp",
+    "ssh2"
+  ],
+  "author": {
+    "name": "Jhonatan Villanueva",
+    "email": "jinvillaz@gmail.com",
+    "url": "https://github.com/jinvillaz"
+  },
+  "url": "https://github.com/jinvillaz/gulp-scp3",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~3.1.0",
+    "debug": "~4.1.1",
+    "ssh2": "~0.8.6",
+    "through2": "~3.0.1"
+  }
+}
