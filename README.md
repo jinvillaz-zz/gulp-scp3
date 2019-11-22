@@ -1,8 +1,9 @@
 # gulp-scp3 
 
-Copy file to remote server, using ssh2 as base.
+Copy file to remote server, using ssh2 as base.  
 
-This module was written in node v12.13.0
+This module was written in node v12.13.0  
+
 ---
 
 ## Install
