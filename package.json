@@ -12,12 +12,19 @@
     "scp",
     "ssh2"
   ],
+  "engines": {
+    "node": ">=12.13.0"
+  },
   "author": {
     "name": "Jhonatan Villanueva",
     "email": "jinvillaz@gmail.com",
     "url": "https://github.com/jinvillaz"
   },
-  "url": "https://github.com/jinvillaz/gulp-scp3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinvillaz/gulp-scp3.git"
+  },
+  "homepage": "https://github.com/jinvillaz/gulp-scp3",
   "license": "MIT",
   "dependencies": {
     "async": "~3.1.0",

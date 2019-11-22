@@ -1,8 +1,14 @@
 # gulp-scp3 
 
-Copy file to remote server, using ssh2 as base.  
+Copy file to remote server, using ssh2 as base. 
 
-This module was written in node v12.13.0  
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/). 
+
+This module was written in node v12.13.0 
+
+Also tested with gulp 4 [Gulp](https://www.npmjs.com/package/gulp) 
+
 
 ---
 
@@ -14,7 +20,7 @@ $ npm install gulp-scp3 --save-dev
 
 ## Usage
 
-```
+```js
 import gulp from 'gulp';        // const gulp = require('gulp');
 import scp from 'gulp-scp3';    // const scp = require('gulp-scp3');
 
@@ -34,36 +40,43 @@ gulp.task('default', () => {
 
 ## Options
 
-### options.host
-Type: `String`
-Default value: `localhost`
+### options.host 
+Type: `String` 
+Default value: `localhost` 
 
 A string value that is the host of the server.
 
-### options.port
-Type: `Number`
-Default value: `22`
+### options.port 
+Type: `Number` 
+Default value: `22` 
 
-The ssh port of the server.
-Note this option wasn't tested.
+The ssh port of the server. 
+Note this option wasn't tested. 
 
-### options.username
-Type: `String`
-Default value: `admin`
+### options.username 
+Type: `String` 
+Default value: `admin` 
 
-The username of the server.
+The username of the server. 
 
 
-### options.password
-Type: `String`
+### options.password 
+Type: `String` 
 
-The password of the user on the remote server.
+The password of the user on the remote server. 
 
-### options.dest
-Type: `String`
-Default value: `/home/username`
+### options.dest 
+Type: `String` 
+Default value: `/home/username` 
 
-Remote server directory
+Remote server directory 
+
+## Repository 
+[gulp-scp3](https://github.com/jinvillaz/gulp-scp3) 
+
+
+## Author
+[Jhonatan Villanueva](https://github.com/jinvillaz) 
 
 
 ## LISENCE
