@@ -1,6 +1,6 @@
 {
   "name": "gulp-scp3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This module is a gulp-task for copy files remotely like scp command on linux.",
   "main": "index.js",
   "scripts": {

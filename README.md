@@ -5,10 +5,12 @@ Copy file to remote server, using ssh2 as base.
 This is a [Node.js](https://nodejs.org/en/) module available through the
 [npm registry](https://www.npmjs.com/). 
 
-This module was written in node v12.13.0 
+This module was written in `node v12.13.0` 
 
 Also tested with gulp 4 [Gulp](https://www.npmjs.com/package/gulp) 
 
+node.js version supported  
+`node v10.17.0` up
 
 ---
 
