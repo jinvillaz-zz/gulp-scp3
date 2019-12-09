@@ -80,6 +80,12 @@ Remote server directory
 ## Author
 [Jhonatan Villanueva](https://github.com/jinvillaz) 
 
+## Thanks for your donation
+If you want to support this free project. Any help is welcome. You can donate by clicking one of the following links:
+
+<a target="blank" href="https://www.paypal.me/jinvillaz"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg"/></a>
+
+
 
 ## LISENCE
 
